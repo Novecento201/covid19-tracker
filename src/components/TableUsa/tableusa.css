@@ -1,0 +1,27 @@
+.table_usa {
+  height: 500px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: var(--body-color-lighter);
+}
+.thead {
+  background-color: white !important;
+  z-index: 100;
+}
+
+.row {
+  background-color: var(--secondary-color) !important;
+  text-transform: uppercase;
+}
+
+.font {
+  font-size: 1rem !important;
+  text-transform: uppercase;
+}
+
+.font_header {
+  color: var(--first-color) !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}

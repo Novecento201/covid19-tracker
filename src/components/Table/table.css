@@ -1,0 +1,27 @@
+.country_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4em 0;
+  margin-right: 10px;
+}
+
+.country_info:nth-of-type(odd) {
+  background-color: var(--body-color-lighter);
+}
+
+.country_img-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.country_img-name img {
+  width: 30px;
+  margin-left: 10px;
+}
+.country_img-name strong {
+  margin: 0;
+}
+.country_numbers {
+  margin-right: 5px;
+}
